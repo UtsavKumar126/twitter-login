@@ -26,7 +26,7 @@ function LandingPage() {
                     and 
                     <a href='' className='text-[#1DA1F2]'> Privacy Policy</a>, including 
                     <a href='' className='text-[#1DA1F2]'> Cookie Use</a>.</p>
-                    <p className='px-5'>Already have an account?<a href="/login" className='text-[#1DA1F2]'> Log in</a> </p>
+                    <p className='px-5'>Already have an account?<span className='text-[#1DA1F2] cursor-pointer' onClick={()=>navigate("./login")}> Log in</span> </p>
                 </div>
             </div>
         </div>
